@@ -3,436 +3,400 @@
   "message-type": "work-list",
   "message-version": "1.0.0",
   "message": {
-    "total-results": 24,
+    "facets": {},
+    "total-results": 92486,
     "items": [
       {
-        "DOI": "10.1145/3637528.3671801",
-        "title": [
-          "Agentic Retrieval-Augmented Generation for Knowledge-Intensive Tasks"
-        ],
-        "abstract": "<jats:p>Retrieval-Augmented Generation (RAG) significantly improves large language model accuracy by grounding responses in retrieved passages. We explore agentic multi-hop reasoning and routing across heterogeneous vector indices.</jats:p>",
-        "author": [
-          {
-            "given": "Minh",
-            "family": "Nguyen"
-          },
-          {
-            "given": "Hoang",
-            "family": "Le"
-          }
-        ],
-        "subject": [
-          "Artificial Intelligence",
-          "Information Retrieval"
-        ],
-        "published": {
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Feature generation can significantly enhance learning outcomes, particularly for tasks with limited data. An effective way to improve feature generation is to expand the current feature space using existing features and enriching the informational content. However, generating new, interpretable features usually requires domain-specific knowledge on top of the existing features. In this paper, we introduce a Retrieval-Augmented Feature Generation method, RAFG, to generate useful and explainable features specific to domain classification tasks. To increase the interpretability of the generated features, we conduct knowledge retrieval among the existing features in the domain to identify potential feature associations. These associations are expected to help generate useful features. Moreover, we develop a framework based on large language models (LLMs) for feature generation with reasoning to evaluate their semantic relevance, causal alignment, and expected utility for the downstream task. To mitigate the risk of overconfident or unsupported reasoning, we further introduce a counterfactual validation mechanism that compares reasoning-based predictions with observed performance changes. Experiments across several datasets in medical, economic, and geographic domains show that our RAFG method can produce high-quality, meaningful features and significantly improve classification performance compared with baseline methods.</jats:p>",
+        "DOI": "10.1007/s10115-026-02792-4",
+        "created": {
           "date-parts": [
             [
               2026,
-              5,
-              20
+              6,
+              2
             ]
-          ]
+          ],
+          "date-time": "2026-06-02T08:46:50Z",
+          "timestamp": 1780390010000
         },
-        "created": {
-          "date-time": "2026-05-20T10:00:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671801"
-      },
-      {
-        "DOI": "10.1145/3637528.3671802",
         "title": [
-          "Data Observability and Quality Gates for Production RAG Systems"
+          "Reliable retrieval-augmented feature generation with large language model reasoning"
         ],
-        "abstract": "<jats:p>Silent data corruption in RAG pipelines degrades LLM answer faithfulness without throwing runtime errors. We introduce automated quality gates using Great Expectations 1.x to catch stale and malformed embeddings before serving.</jats:p>",
         "author": [
           {
-            "given": "Anh",
-            "family": "Tran"
+            "given": "Jinghan",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
           },
           {
-            "given": "Quoc",
-            "family": "Pham"
+            "given": "Xinhao",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Fengran",
+            "family": "Mo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dakshak",
+            "family": "Keerthi\u00a0Chandra",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yu-Zhong",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Fei",
+            "family": "Xie",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kunpeng",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
           }
         ],
-        "subject": [
-          "Software Engineering",
-          "Data Systems"
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10115-026-02792-4.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s10115-026-02792-4",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10115-026-02792-4.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
         ],
+        "URL": "https://doi.org/10.1007/s10115-026-02792-4",
         "published": {
           "date-parts": [
             [
               2026,
               6,
-              12
-            ]
-          ]
-        },
-        "created": {
-          "date-time": "2026-06-12T14:30:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671802"
-      },
-      {
-        "DOI": "10.1145/3637528.3671803",
-        "title": [
-          "Mitigating Ghost Vectors in Dense Retrieval via Idempotent Indexing"
-        ],
-        "abstract": "<jats:p>Soft-deletions in vector databases leave orphaned embeddings that lead to hallucinations. This paper designs an idempotent index synchronization protocol that guarantees complete purges of outdated vector artifacts.</jats:p>",
-        "author": [
-          {
-            "given": "Duc",
-            "family": "Vu"
-          },
-          {
-            "given": "Thao",
-            "family": "Dang"
-          }
-        ],
-        "subject": [
-          "Databases",
-          "Information Systems"
-        ],
-        "published": {
-          "date-parts": [
-            [
-              2026,
-              4,
-              18
-            ]
-          ]
-        },
-        "created": {
-          "date-time": "2026-04-18T09:15:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671803"
-      },
-      {
-        "DOI": "10.1145/3637528.3671804",
-        "title": [
-          "Freshness SLAs for Real-Time LLM Knowledge Augmentation"
-        ],
-        "abstract": "<jats:p>We define freshness service-level agreements (SLAs) for temporal document ingestion. By tracking document age and update cadence, our orchestrator dynamically prioritizes recrawling high-churn technical corpora.</jats:p>",
-        "author": [
-          {
-            "given": "Bao",
-            "family": "Do"
-          },
-          {
-            "given": "Linh",
-            "family": "Ngo"
-          }
-        ],
-        "subject": [
-          "Data Management",
-          "Artificial Intelligence"
-        ],
-        "published": {
-          "date-parts": [
-            [
-              2026,
-              7,
-              5
-            ]
-          ]
-        },
-        "created": {
-          "date-time": "2026-07-05T16:00:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671804"
-      },
-      {
-        "DOI": "10.1145/3637528.3671805",
-        "title": [
-          "Evaluating Retrieval Precision with Token F1 and LLM Judges"
-        ],
-        "abstract": "<jats:p>Evaluating open-domain QA requires robust metrics. We benchmark semantic similarity, token-level overlap F1, and model-based judge verdicts to quantify RAG answer correctness across noisy corpus conditions.</jats:p>",
-        "author": [
-          {
-            "given": "Tuan",
-            "family": "Phan"
-          },
-          {
-            "given": "Mai",
-            "family": "Bui"
-          }
-        ],
-        "subject": [
-          "Natural Language Processing",
-          "Evaluation Methodology"
-        ],
-        "published": {
-          "date-parts": [
-            [
-              2026,
-              3,
-              28
-            ]
-          ]
-        },
-        "created": {
-          "date-time": "2026-03-28T11:45:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671805"
-      },
-      {
-        "DOI": "10.1145/3637528.3671806",
-        "title": [
-          "Semantic Layer Integration for Agentic Text-to-SQL Pipelines"
-        ],
-        "abstract": "<jats:p>Connecting LLMs directly to raw warehouse tables often results in schema misunderstandings. A governed semantic layer standardizes business metric definitions, dramatically boosting SQL generation accuracy.</jats:p>",
-        "author": [
-          {
-            "given": "Huy",
-            "family": "Dinh"
-          },
-          {
-            "given": "Trang",
-            "family": "Vo"
-          }
-        ],
-        "subject": [
-          "Databases",
-          "Information Systems"
-        ],
-        "published": {
-          "date-parts": [
-            [
-              2026,
-              5,
               2
             ]
           ]
-        },
-        "created": {
-          "date-time": "2026-05-02T13:20:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671806"
+        }
       },
       {
-        "DOI": "10.1145/3637528.3671807",
-        "title": [
-          "Synthetic Corruption Testing: Stress-Testing Vector Search Robustness"
-        ],
-        "abstract": "<jats:p>We introduce an automated fuzzing suite that corrupts text chunks by injecting noise, truncating titles, and blanking summaries. Experiments reveal critical failure thresholds for dense embedding retrieval.</jats:p>",
-        "author": [
-          {
-            "given": "Kien",
-            "family": "Duong"
-          },
-          {
-            "given": "Vy",
-            "family": "Ly"
-          }
-        ],
-        "subject": [
-          "Robustness",
-          "Information Retrieval"
-        ],
-        "published": {
-          "date-parts": [
-            [
-              2026,
-              6,
-              25
-            ]
-          ]
-        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Large language models (LLMs) show strong performance in general text generation and knowledge-based question answering (QA). However, a substantial performance gap remains in optics, a knowledge-intensive scientific field. General-purpose LLMs, trained and tuned without sufficient optics knowledge, often hallucinate when handling optics-related queries. We present OptoChat, a retrieval-augmented LLM purpose-built for the optical domain. By combining domain-specific retrieval-augmented generation with targeted optimization, OptoChat delivers precise, contextually grounded answers for optics QA. To the best of our knowledge, this is the first work to adapt and optimize LLMs specifically for optics knowledge understanding and QA. Experimental results show that OptoChat achieves state-of-the-art performance on optics-focused QA benchmarks and significantly outperforms recent general-purpose models. The interactive website is available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://optochatai.com\">https://optochatai.com</jats:ext-link>\n                    .\n                  </jats:p>",
+        "DOI": "10.1088/2515-7647/ae7491",
         "created": {
-          "date-time": "2026-06-25T15:10:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671807"
-      },
-      {
-        "DOI": "10.1145/3637528.3671808",
-        "title": [
-          "Multi-Agent Consensus for High-Stakes Fact Verification"
-        ],
-        "abstract": "<jats:p>A single LLM is susceptible to confirmation bias when evaluating retrieved evidence. We demonstrate a multi-agent debate architecture where specialized verifier agents critique and corroborate citations.</jats:p>",
-        "author": [
-          {
-            "given": "Phong",
-            "family": "Vu"
-          },
-          {
-            "given": "Ngan",
-            "family": "Hoang"
-          }
-        ],
-        "subject": [
-          "Multi-Agent Systems",
-          "Artificial Intelligence"
-        ],
-        "published": {
-          "date-parts": [
-            [
-              2026,
-              7,
-              19
-            ]
-          ]
-        },
-        "created": {
-          "date-time": "2026-07-19T08:50:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671808"
-      },
-      {
-        "DOI": "10.1145/3637528.3671809",
-        "title": [
-          "Chunking Strategies for Technical Documentation Retrieval"
-        ],
-        "abstract": "<jats:p>Hierarchical and semantic boundary chunking preserves code block contexts and markdown headings. Our benchmark demonstrates superior top-1 recall compared to fixed character length sliding windows.</jats:p>",
-        "author": [
-          {
-            "given": "Long",
-            "family": "Trinh"
-          },
-          {
-            "given": "Ha",
-            "family": "Chu"
-          }
-        ],
-        "subject": [
-          "Information Retrieval",
-          "Natural Language Processing"
-        ],
-        "published": {
-          "date-parts": [
-            [
-              2026,
-              4,
-              30
-            ]
-          ]
-        },
-        "created": {
-          "date-time": "2026-04-30T17:05:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671809"
-      },
-      {
-        "DOI": "10.1145/3637528.3671810",
-        "title": [
-          "Automated Data Quality Profiling with Great Expectations in CI/CD"
-        ],
-        "abstract": "<jats:p>Embedding quality checks directly into data pipelines enables fail-closed governance. We show how Great Expectations suites catch schema drifts and null fields before documents reach the embedding model.</jats:p>",
-        "author": [
-          {
-            "given": "Son",
-            "family": "Nguyen"
-          },
-          {
-            "given": "Thuy",
-            "family": "Doan"
-          }
-        ],
-        "subject": [
-          "Data Quality",
-          "DevOps"
-        ],
-        "published": {
-          "date-parts": [
-            [
-              2026,
-              6,
-              8
-            ]
-          ]
-        },
-        "created": {
-          "date-time": "2026-06-08T12:00:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671810"
-      },
-      {
-        "DOI": "10.1145/3637528.3671811",
-        "title": [
-          "Hybrid Search Architectures: Combining BM25 with Dense Representations"
-        ],
-        "abstract": "<jats:p>Dense vector search excels at conceptual similarity but struggles with exact acronyms and serial numbers. Reciprocal Rank Fusion of sparse lexical scores and dense embeddings achieves optimal recall.</jats:p>",
-        "author": [
-          {
-            "given": "Dat",
-            "family": "Tran"
-          },
-          {
-            "given": "Lan",
-            "family": "Pham"
-          }
-        ],
-        "subject": [
-          "Information Retrieval",
-          "Algorithms"
-        ],
-        "published": {
           "date-parts": [
             [
               2026,
               5,
-              14
+              28
             ]
-          ]
+          ],
+          "date-time": "2026-05-28T22:53:29Z",
+          "timestamp": 1780008809000
         },
-        "created": {
-          "date-time": "2026-05-14T09:30:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671811"
-      },
-      {
-        "DOI": "10.1145/3637528.3671812",
         "title": [
-          "Continuous Benchmark Evaluation for Enterprise Retrieval Pipelines"
+          "OptoChat: a large language model with retrieval augmented generation for optics"
         ],
-        "abstract": "<jats:p>Static benchmarks fail to capture domain drift in enterprise knowledge bases. We establish a synthetic test generator that auto-creates paired evaluation sets whenever new corpora are ingested.</jats:p>",
         "author": [
           {
-            "given": "Quang",
-            "family": "Le"
-          },
-          {
-            "given": "Yen",
-            "family": "Vu"
-          }
-        ],
-        "subject": [
-          "Evaluation Methodology",
-          "Enterprise Systems"
-        ],
-        "published": {
-          "date-parts": [
-            [
-              2026,
-              7,
-              22
+            "given": "Xiaoqing",
+            "family": "Bao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Nanjing University of Information Science and Technology"
+              },
+              {
+                "name": "Nanzhi Institute of Advanced Optoelectronic Integration Technology"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
             ]
-          ]
-        },
-        "created": {
-          "date-time": "2026-07-22T14:15:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671812"
-      },
-      {
-        "DOI": "10.1145/3637528.3671813",
-        "title": [
-          "Advanced Perspectives on Agentic Retrieval-Augmented Generation for Knowledge-Intensive Tasks"
-        ],
-        "abstract": "<jats:p>An extended empirical study on etrieval-Augmented Generation (RAG) significantly improves large language model accuracy by grounding responses in retrieved passages. We explore agentic multi-hop reasoning and routing across heterogeneous vector indices Further analysis on scaling parameters.</jats:p>",
-        "author": [
-          {
-            "given": "Minh",
-            "family": "Nguyen"
           },
           {
-            "given": "Hoang",
-            "family": "Le"
+            "given": "Hairuo",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanzhi Institute of Advanced Optoelectronic Integration Technology"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-7170-367X",
+            "authenticated-orcid": false,
+            "given": "Silin",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanjing University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0895-7328",
+            "authenticated-orcid": true,
+            "given": "Yali",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanjing University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wenjun",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanjing University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kangjian",
+            "family": "Di",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanjing University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mengcheng",
+            "family": "Lv",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanzhi Institute of Advanced Optoelectronic Integration Technology"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-5113-6125",
+            "authenticated-orcid": true,
+            "given": "Minghui",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "ZetaTech Co., Ltd"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Guohao",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "ZetaTech Co., Ltd"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wenzheng",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "ZetaTech Co., Ltd"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2505-4139",
+            "authenticated-orcid": true,
+            "given": "Ningmu",
+            "family": "Zou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanjing University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
           }
         ],
-        "subject": [
-          "Artificial Intelligence",
-          "Information Retrieval"
+        "link": [
+          {
+            "URL": "https://iopscience.iop.org/article/10.1088/2515-7647/ae7491",
+            "content-type": "text/html",
+            "content-version": "am",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://iopscience.iop.org/article/10.1088/2515-7647/ae7491/pdf",
+            "content-type": "application/pdf",
+            "content-version": "am",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://iopscience.iop.org/article/10.1088/2515-7647/ae7491",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://iopscience.iop.org/article/10.1088/2515-7647/ae7491/pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://iopscience.iop.org/article/10.1088/2515-7647/ae7491/pdf",
+            "content-type": "application/pdf",
+            "content-version": "am",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://iopscience.iop.org/article/10.1088/2515-7647/ae7491/pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://iopscience.iop.org/article/10.1088/2515-7647/ae7491/pdf",
+            "content-type": "application/pdf",
+            "content-version": "am",
+            "intended-application": "similarity-checking"
+          },
+          {
+            "URL": "https://iopscience.iop.org/article/10.1088/2515-7647/ae7491/pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
         ],
+        "URL": "https://doi.org/10.1088/2515-7647/ae7491",
         "published": {
           "date-parts": [
             [
@@ -441,386 +405,2672 @@
               1
             ]
           ]
-        },
-        "created": {
-          "date-time": "2026-06-01T10:00:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671813"
+        }
       },
       {
-        "DOI": "10.1145/3637528.3671814",
+        "DOI": "10.55041/isjem07213",
         "title": [
-          "Advanced Perspectives on Data Observability and Quality Gates for Production RAG Systems"
+          "Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference"
         ],
-        "abstract": "<jats:p>An extended empirical study on ilent data corruption in RAG pipelines degrades LLM answer faithfulness without throwing runtime errors. We introduce automated quality gates using Great Expectations 1.x to catch stale and malformed embeddings before serving Further analysis on scaling parameters.</jats:p>",
+        "abstract": "<jats:p>Abstract - This work focuses on the two crucial bottlenecks in Retrieval-Augmented Generation (RAG): high inference latency and expensive computation cost. RAG enhances the factual correctness of Large Language Models (LLMs) by utilizing external knowledge sources; However, the auto-To achieve a good recall, the system applies a two-way retrieval mechanism:\n\nDense retrieval: This module uses BAAI/bge-small-en-v1.5 to create a 384-dimensional embedding space, where queries and documents are mapped. The embeddings are stored in a FAISS IndexFlatL2.\nSparse retrieval: This module uses TF-IDF vectorization to capture an exact keyword match.\nReranking: A simple heuristic mechanism of matching substrings of the query terms in the documents selected to perform the final step of ranking them for prompt\n\nintroduce a novel speculative RAG framework that combines hybrid retrieval with speculative decoding. Our framework employs hybrid dense vector search (BGE-small) and sparse keyword search (TF-IDF) for enhanced recall followed by a lightweight re-ranker model. A compact draft model (TinyLlama-1.1B) makes tentative future token generation, then a larger verifier model (Mistral-7B) checks the correctness of the candidate token. Empirical experiments demonstrate 33% and 29% improvement in inference latency and token reduction, respectively, compared to the baseline of a typical 7B model, while retaining 94% accuracy on factoid tasks.\n\nKey Words: Retrieval-Augmented Generation, Speculative Decoding, Large Language Models, Inference Optimization, Hybrid Retrieval</jats:p>",
         "author": [
           {
-            "given": "Anh",
-            "family": "Tran"
-          },
-          {
-            "given": "Quoc",
-            "family": "Pham"
-          }
-        ],
-        "subject": [
-          "Software Engineering",
-          "Data Systems"
-        ],
-        "published": {
-          "date-parts": [
-            [
-              2026,
-              6,
-              2
+            "given": "Dr. Sumalatha",
+            "family": "P",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
             ]
-          ]
-        },
-        "created": {
-          "date-time": "2026-06-02T10:00:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671814"
-      },
-      {
-        "DOI": "10.1145/3637528.3671815",
-        "title": [
-          "Advanced Perspectives on Mitigating Ghost Vectors in Dense Retrieval via Idempotent Indexing"
-        ],
-        "abstract": "<jats:p>An extended empirical study on oft-deletions in vector databases leave orphaned embeddings that lead to hallucinations. This paper designs an idempotent index synchronization protocol that guarantees complete purges of outdated vector artifacts Further analysis on scaling parameters.</jats:p>",
-        "author": [
-          {
-            "given": "Duc",
-            "family": "Vu"
           },
           {
-            "given": "Thao",
-            "family": "Dang"
-          }
-        ],
-        "subject": [
-          "Databases",
-          "Information Systems"
-        ],
-        "published": {
-          "date-parts": [
-            [
-              2026,
-              6,
-              3
+            "given": "Manoj",
+            "family": "Kumar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
             ]
-          ]
-        },
-        "created": {
-          "date-time": "2026-06-03T10:00:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671815"
-      },
-      {
-        "DOI": "10.1145/3637528.3671816",
-        "title": [
-          "Advanced Perspectives on Freshness SLAs for Real-Time LLM Knowledge Augmentation"
-        ],
-        "abstract": "<jats:p>An extended empirical study on e define freshness service-level agreements (SLAs) for temporal document ingestion. By tracking document age and update cadence, our orchestrator dynamically prioritizes recrawling high-churn technical corpora Further analysis on scaling parameters.</jats:p>",
-        "author": [
-          {
-            "given": "Bao",
-            "family": "Do"
-          },
-          {
-            "given": "Linh",
-            "family": "Ngo"
           }
-        ],
-        "subject": [
-          "Data Management",
-          "Artificial Intelligence"
         ],
         "published": {
           "date-parts": [
             [
               2026,
-              6,
-              4
-            ]
-          ]
-        },
-        "created": {
-          "date-time": "2026-06-04T10:00:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671816"
-      },
-      {
-        "DOI": "10.1145/3637528.3671817",
-        "title": [
-          "Advanced Perspectives on Evaluating Retrieval Precision with Token F1 and LLM Judges"
-        ],
-        "abstract": "<jats:p>An extended empirical study on valuating open-domain QA requires robust metrics. We benchmark semantic similarity, token-level overlap F1, and model-based judge verdicts to quantify RAG answer correctness across noisy corpus conditions Further analysis on scaling parameters.</jats:p>",
-        "author": [
-          {
-            "given": "Tuan",
-            "family": "Phan"
-          },
-          {
-            "given": "Mai",
-            "family": "Bui"
-          }
-        ],
-        "subject": [
-          "Natural Language Processing",
-          "Evaluation Methodology"
-        ],
-        "published": {
-          "date-parts": [
-            [
-              2026,
-              6,
-              5
-            ]
-          ]
-        },
-        "created": {
-          "date-time": "2026-06-05T10:00:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671817"
-      },
-      {
-        "DOI": "10.1145/3637528.3671818",
-        "title": [
-          "Advanced Perspectives on Semantic Layer Integration for Agentic Text-to-SQL Pipelines"
-        ],
-        "abstract": "<jats:p>An extended empirical study on onnecting LLMs directly to raw warehouse tables often results in schema misunderstandings. A governed semantic layer standardizes business metric definitions, dramatically boosting SQL generation accuracy Further analysis on scaling parameters.</jats:p>",
-        "author": [
-          {
-            "given": "Huy",
-            "family": "Dinh"
-          },
-          {
-            "given": "Trang",
-            "family": "Vo"
-          }
-        ],
-        "subject": [
-          "Databases",
-          "Information Systems"
-        ],
-        "published": {
-          "date-parts": [
-            [
-              2026,
-              6,
+              5,
               6
             ]
           ]
         },
         "created": {
-          "date-time": "2026-06-06T10:00:00Z"
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ],
+          "date-time": "2026-05-06T16:40:09Z",
+          "timestamp": 1778085609000
         },
-        "URL": "https://doi.org/10.1145/3637528.3671818"
+        "URL": "https://doi.org/10.55041/isjem07213"
       },
       {
-        "DOI": "10.1145/3637528.3671819",
+        "abstract": "<jats:p>Aksesibilitas dokumen digital Fatwa Majelis Ulama Indonesia (MUI) yang terfragmentasi membuat pencarian informasi kurang efektif. Di sisi lain, sistem tanya jawab AI berbasis satu sumber dokumen (single-corpus) rentan menghasilkan jawaban tidak akurat (halusinasi) pada pertanyaan di luar domain. Penelitian ini mengembangkan Chatbot Hybrid Fatwa MUI menggunakan arsitektur Hybrid Retrieval bertingkat dengan dua sumber pengetahuan: dokumen Fatwa MUI sebagai korpus utama dan 12.370 hadis Bukhari-Muslim sebagai mekanisme cadangan (fallback). Sistem ini menerapkan pencarian semantik, verifikasi topik otomatis oleh model bahasa, dan pengalihan ke basis data hadis jika konteks fatwa dinilai tidak relevan. Hasil evaluasi menunjukkan peningkatan kesamaan makna jawaban sebesar 13,23% (dari 0,6664 menjadi 0,7546) dan peningkatan kesetiaan pada rujukan (faithfulness) sebesar 10,57% (dari 85,37% menjadi 94,39%), dengan tingkat penolakan (abstain rate) identik sebesar 26,83%. Pendekatan multi-korpus ini terbukti signifikan meningkatkan relevansi dan keakuratan jawaban dibandingkan RAG standar.</jats:p>",
+        "DOI": "10.52060/juptik.v4i1.4318",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              4
+            ]
+          ],
+          "date-time": "2026-07-04T14:11:07Z",
+          "timestamp": 1783174267000
+        },
         "title": [
-          "Advanced Perspectives on Synthetic Corruption Testing: Stress-Testing Vector Search Robustness"
+          "Chatbot Hybrid Fatwa MUI Menggunakan Retrieval Augmented Generation dan Large Language Model"
         ],
-        "abstract": "<jats:p>An extended empirical study on e introduce an automated fuzzing suite that corrupts text chunks by injecting noise, truncating titles, and blanking summaries. Experiments reveal critical failure thresholds for dense embedding retrieval Further analysis on scaling parameters.</jats:p>",
         "author": [
           {
-            "given": "Kien",
-            "family": "Duong"
+            "given": "Surya Hidayatullah",
+            "family": "Firdaus",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Universitas Islam Negeri Sultan Syarif Kasim"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
           },
           {
-            "given": "Vy",
-            "family": "Ly"
+            "given": "Nazruddin",
+            "family": "Safaat H",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Universitas Islam Negeri Sultan Syarif Kasim"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yelfi",
+            "family": "Vitriani",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Universitas Islam Negeri Sultan Syarif Kasim"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "Novriyanto",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Universitas Islam Negeri Sultan Syarif Kasim"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
           }
         ],
-        "subject": [
-          "Robustness",
-          "Information Retrieval"
+        "link": [
+          {
+            "URL": "https://www.ejournal.ummuba.ac.id/index.php/JUPTIK/article/download/4318/2057",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.ejournal.ummuba.ac.id/index.php/JUPTIK/article/download/4318/2057",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
         ],
+        "URL": "https://doi.org/10.52060/juptik.v4i1.4318",
         "published": {
           "date-parts": [
             [
               2026,
               6,
-              7
+              1
             ]
           ]
-        },
-        "created": {
-          "date-time": "2026-06-07T10:00:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671819"
+        }
       },
       {
-        "DOI": "10.1145/3637528.3671820",
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Introduction</jats:title>\n                    <jats:p>While Large Language Models (LLMs) offer generative capabilities, generic models often lack domain-specific grounding, leading to hallucinations in high-stakes contexts. However, LLMs can serve as clinical decision support tools if augmented with specific domain data. This study evaluates the utility of Retrieval-Augmented Generation (RAG) applied to open-source LLMs, utilizing a curated knowledge base of authoritative sleep medicine textbooks, to quantify improvement in performance.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods</jats:title>\n                    <jats:p>We evaluated four open-source models\u2014Llama-70B, Llama-8B, Qwen-14B, and Qwen-235B, linked to a RAG system indexing five standard textbooks, including ICSD-3 TR. Models were tested on sleep board\u2013style MCQs and clinical vignettes diagnostic accuracy. Performance was assessed across nine configurations derived from three factors: RAG pipeline complexity (Plain vs. Complicated), textbook preprocessing (Uncleaned vs. Cleaned/TOC-aligned), and retriever type (Dense-only vs. Hybrid). Metrics included MCQ Accuracy and the rates at which the correct diagnosis appeared as the top result or within the top 5 differential diagnosis lists for vignettes.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>RAG consistently outperformed the no-RAG baseline, yielding absolute performance gains of 5.6%\u201310.7% for MCQs and 8.1%\u201310.2% for the top diagnosis in cases across all models. For MCQs, Qwen-235B achieved the highest accuracy of 87.3% (vs. 81.7% baseline) using the Plain RAG configuration with Cleaned (TOC-aligned) Hybrid retrieval. Llama-70B followed with 83.6% in the same configuration. For case vignettes, Qwen-235B achieved a correct top diagnosis rate of 66.3% and a correct diagnosis rate within the top 5 differential diagnosis lists of 90.8% using Cleaned Hybrid retrieval configurations. Hybrid retrieval (Dense + Sparse) consistently surpassed Dense-only methods. Notably, while larger models benefited from Cleaned text, smaller models (e.g., Qwen-14B) achieved higher top diagnosis rates with Uncleaned text (57.1% vs. 51.0%), suggesting a dependency on redundant context in lower-parameter settings.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusion</jats:title>\n                    <jats:p>RAG significantly enhances knowledge performance of open-source LLMs in sleep medicine. Hybrid retrieval and curated, TOC-aligned knowledge bases yield optimal results for large models, whereas smaller models benefit from the redundancy of uncleaned text. These findings suggest that RAG systems can augment LLMs in domain specific knowledge for clinical decision support.</jats:p>\n                    <jats:p>Support (if any)\u2009</jats:p>\n                  </jats:sec>",
+        "DOI": "10.1093/sleep/zsag091.0346",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              9
+            ]
+          ],
+          "date-time": "2026-05-09T02:39:59Z",
+          "timestamp": 1778294399000
+        },
         "title": [
-          "Advanced Perspectives on Multi-Agent Consensus for High-Stakes Fact Verification"
+          "0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine"
         ],
-        "abstract": "<jats:p>An extended empirical study on  single LLM is susceptible to confirmation bias when evaluating retrieved evidence. We demonstrate a multi-agent debate architecture where specialized verifier agents critique and corroborate citations Further analysis on scaling parameters.</jats:p>",
         "author": [
           {
-            "given": "Phong",
-            "family": "Vu"
+            "given": "Joseph",
+            "family": "Cheung",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Mayo Clinic Jacksonville"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
           },
           {
-            "given": "Ngan",
-            "family": "Hoang"
+            "given": "Pengze",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Mayo Clinic Jacksonville"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Anshum",
+            "family": "Patel",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Mayo Clinic Jacksonville"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "SaiKrishna",
+            "family": "Vallamchetla",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Mayo Clinic Jacksonville"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Het",
+            "family": "Contractor",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Mayo Clinic Jacksonville"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Hayden",
+            "family": "Heninger",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Mayo Clinic Jacksonville"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Cui",
+            "family": "Tao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Mayo Clinic Jacksonville"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
           }
         ],
-        "subject": [
-          "Multi-Agent Systems",
-          "Artificial Intelligence"
+        "link": [
+          {
+            "URL": "https://academic.oup.com/sleep/article-pdf/49/Supplement_1/A153/68252775/zsag091.0346.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://academic.oup.com/sleep/article-pdf/49/Supplement_1/A153/68252775/zsag091.0346.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1093/sleep/zsag091.0346",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        }
+      },
+      {
+        "abstract": "<jats:p>Keterbukaan akses informasi publik diatur dalam Undang-Undang Nomor 14 Tahun 2008 tentang Keterbukaan Informasi Publik sebagai elemen utama untuk mewujudkan transparansi dan tata kelola pemerintahan yang baik. Di Universitas Lampung, Pejabat Pengelola Informasi dan Dokumentasi (PPID) menyediakan berbagai data publik melalui website resminya. Namun, pengguna sering mengalami kesulitan dalam menemukan informasi spesifik akibat tersebarnya dokumenserta keterbatasan fitur pencarian. Untuk mengatasi permasalahan tersebut, dikembangkan chatbot Telegram berbasis kecerdasan buatan menggunakan Large Language Model (LLM) Qwen2.5 VL 72B Instruct yang terintegrasi dengan arsitektur Retrieval Augmented Generation (RAG). Data diambil dari website PPID Universitas Lampung yang selanjutnya disusun menjadi dataset terstruktur sebanyak 375 pasangan pertanyaan\u2013jawaban yang dikurasi dari 47 entri informasi publik. Data tersebut diproses melalui tahap tokenisasi, embedding, serta indexing menggunakan vector database FAISS untuk mendukung pencariansemantik. Evaluasi dilakukan dengan metrik RAGAS (faithfulness, answer relevance, dan context recall) dengan ambang batas minimal 0,8, serta perbandingan performa dengan LLM murni. Hasil pengujian menunjukkan bahwa sistem berhasilmelampaui ambang batas RAGAS dengan rata-rata latensi respons yang sangat rendah yaitu 0,69 detik, serta memiliki akurasi lebih tinggi dibandingkan LLM murni dengan pengurangan signifikan terhadap halusinasi jawaban. Uji kegunaan menggunakan Chatbot Usability Questionnaire (CUQ) menghasilkan skor rata-rata 90,62 yang mengindikasikan pengalaman pengguna yang sangat baik. Penelitian ini menyimpulkan bahwa integrasi LLM dan RAG pada chatbot efektif meningkatkan akurasi, relevansi, dan kemudahan akses informasi publik secara real-time.</jats:p>",
+        "DOI": "10.28932/jutisi.v12i2.13099",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              2
+            ]
+          ],
+          "date-time": "2026-09-02T06:41:28Z",
+          "timestamp": 1788331288000
+        },
+        "title": [
+          "Transformasi Layanan Informasi Berbasis Chatbot Retrieval-Augmented Generation dan Large  Language Model"
+        ],
+        "author": [
+          {
+            "given": "Muhamad",
+            "family": "Komarudin",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chelly",
+            "family": "Sabrina",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yessy",
+            "family": "Mulyani",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Puput Budi",
+            "family": "Wintoro",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://journal.maranatha.edu/index.php/jutisi/article/download/13099/3737",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journal.maranatha.edu/index.php/jutisi/article/download/13099/3737",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.28932/jutisi.v12i2.13099",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              27
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.54254/2755-2721/2026.36624",
+        "title": [
+          "Advances in Reinforcement Learning for Retrieval-Augmented Generation in Large Language Model"
+        ],
+        "abstract": "<jats:p>Retrieval-augmented generation (RAG) enhances large language models (LLMs) by incorporating external information, but traditional fixed retrieval processes struggle to adapt to complex task requirements. In recent years, reinforcement learning (RL) has been increasingly applied to train LLMs to autonomously invoke search tools, driving RAG to evolve from the passive information acquisition of a fixed pipeline to a trustworthy retrieval system with autonomous decision-making capabilities. This paper reviews the representative studies on the combination of LLMs, RAG and RL in recent years. It focuses on analyzing the role of RL in dynamic retrieval, process rewards, query optimization, etc., and compares the connections and evolutionary relationships among different methods. The research findings show that RL has gradually expanded from simply improving the accuracy of the final answer to optimizing queries, multi-round search, process decision-making and trustworthy screening, providing new ideas for enhancing the active retrieval ability of RAG and improving the credibility of information.</jats:p>",
+        "author": [
+          {
+            "given": "Zunlong",
+            "family": "Hong",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Xidian University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
         ],
         "published": {
           "date-parts": [
             [
               2026,
-              6,
+              9,
               8
             ]
           ]
         },
         "created": {
-          "date-time": "2026-06-08T10:00:00Z"
+          "date-parts": [
+            [
+              2026,
+              9,
+              8
+            ]
+          ],
+          "date-time": "2026-09-08T02:26:31Z",
+          "timestamp": 1788834391000
         },
-        "URL": "https://doi.org/10.1145/3637528.3671820"
+        "URL": "https://doi.org/10.54254/2755-2721/2026.36624"
       },
       {
-        "DOI": "10.1145/3637528.3671821",
+        "abstract": "<jats:p>Large language models have accelerated the development of intelligent assistants by providing flexible natural- language understanding and generation. However, hallucination, knowledge staleness, and limited coverage of domain-specific information continue to restrict their reliability in knowledge-intensive tasks. This review examines how Retrieval -Augmented Generation (RAG) can strengthen LLM-based intelligent assistants by connecting generative capability with external, maintainable knowledge. It synthesi zes research on the technical foundations of RAG, key components and optimization strategies, and applications and challenges in intelligent-assistant settings. The review finds that RAG can improve knowledge accuracy and timeliness by grounding responses in retrieved evidence and allowing knowledge resources to be updated independently of the base model. These benefits are conditional: unreliable retrieval, poorly maintained sources, ineffective use of context, and fragmented evaluation can still produce u nsupported or unsafe answers. Reliable deployment, therefore, requires coordinated retrieval quality, knowledge management, generation control, and trustworthy evaluation. Future RAG-based assistants should combine these capabilities to become scalable, secure, evidence-aware, and verifiable systems.</jats:p>",
+        "DOI": "10.70267/aitia.2026482489",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              13
+            ]
+          ],
+          "date-time": "2026-09-13T10:04:31Z",
+          "timestamp": 1789293871000
+        },
         "title": [
-          "Advanced Perspectives on Chunking Strategies for Technical Documentation Retrieval"
+          "Retrieval-Augmented Generation for Large Language Model-Based Intelligent Assistants: A Review"
         ],
-        "abstract": "<jats:p>An extended empirical study on ierarchical and semantic boundary chunking preserves code block contexts and markdown headings. Our benchmark demonstrates superior top-1 recall compared to fixed character length sliding windows Further analysis on scaling parameters.</jats:p>",
         "author": [
           {
-            "given": "Long",
-            "family": "Trinh"
-          },
-          {
-            "given": "Ha",
-            "family": "Chu"
+            "given": "Zilang",
+            "family": "Shao",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
           }
         ],
-        "subject": [
-          "Information Retrieval",
-          "Natural Language Processing"
+        "link": [
+          {
+            "URL": "https://journals.zeuspress.org/index.php/conference/article/download/1352/1280",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.zeuspress.org/index.php/conference/article/download/1352/1280",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.70267/aitia.2026482489",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              13
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.20944/preprints202604.0339.v1",
+        "title": [
+          "Retrieval-Augmented Large Language Model Agents for Automated Scientific Literature Review Generation"
+        ],
+        "abstract": "<jats:p>This study investigates a method that integrates retrieval-augmented mechanisms into large language model agents for scientific literature review generation. The approach addresses the limitations of traditional review models that rely on parametric knowledge with insufficient timeliness and limited coverage. Incorporating external document retrieval and dynamic information fusion into the generation process enhances the accuracy and completeness of the output. The overall framework consists of query encoding, semantic retrieval, document filtering, knowledge fusion, language modeling, task planning, memory storage, and reinforcement optimization, forming a closed loop of retrieval, understanding, and generation. Relevant document fragments are first retrieved through semantic vector search to ensure comprehensive and reliable information sources. These external representations are then integrated with the internal embeddings of the language model through weighted fusion, which preserves fluency while maintaining factual grounding. The task planning module constrains logical flow and text structure, and reinforcement learning optimization further improves relevance and consistency. Comparative experiments on large-scale scientific literature datasets demonstrate that the method outperforms existing approaches on ROUGE, BLEU, METEOR, and diversity metrics, validating its effectiveness and practicality. The findings show that combining retrieval augmentation with agent architectures can significantly improve coverage, accuracy, and language quality in review generation, providing a feasible solution for knowledge organization in complex literature environments.</jats:p>",
+        "author": [
+          {
+            "given": "Ruotong",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nyutian",
+            "family": "Long",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shunqi",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yuxi",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhen",
+            "family": "Qi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Huajun",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
         ],
         "published": {
           "date-parts": [
             [
               2026,
+              4,
+              6
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              7
+            ]
+          ],
+          "date-time": "2026-04-07T00:32:22Z",
+          "timestamp": 1775521942000
+        },
+        "URL": "https://doi.org/10.20944/preprints202604.0339.v1"
+      },
+      {
+        "abstract": "<jats:p>Designers, engineers, and building officials face increasing pressure to accelerate and improve the accuracy of design review for buildings and infrastructure. Roof assemblies and rooftop structures are particularly challenging due to the complexity and fragmentation of regulatory requirements, especially in jurisdictions such as Florida, where compliance must be verified across both the residential and commercial volumes of the Florida Building Code (FBC). The resulting review process is technically demanding and time-intensive, imposing significant cognitive and operational burdens on practitioners and under-resourced public agencies. To address these challenges, this study proposes and evaluates an agentic artificial intelligence (AI) framework for automated code compliance checking of roof assemblies and rooftop structures. The framework employs a multi-agent architecture in which specialized AI agents collaboratively interpret regulatory provisions and evaluate roof design parameters across four core modules: data preprocessing and code ingestion, rule-based and semantic analysis, results visualization, and iterative validation. YOLO11m-seg and Mask R-CNN were used for element detection and segmentation, and the system was developed using 150 design projects, including roof plans, section details, and specifications. Four large language models from two families (Mistral and GPT) were comparatively evaluated on standardized compliance tasks. The framework was then tested on a held-out portfolio of 15 distinct roof-design projects comprising 60 code-compliance decisions derived from the FBC 2023, with performance measured by precision, recall, F1-score, and accuracy. GPT-5.4 achieved the highest overall performance (F1 = 0.97; accuracy = 97%). Because the reasoning and vision components were evaluated separately rather than as an integrated end-to-end pipeline, and the scope was limited to one jurisdiction and two drawing types, broader code coverage and production-setting validation are needed before claims of generality. Nonetheless, the results suggest that agentic AI can meaningfully support compliance review and reduce reviewer burden in roof-design permitting.</jats:p>",
+        "DOI": "10.3390/buildings16132637",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              2
+            ]
+          ],
+          "date-time": "2026-07-02T10:04:44Z",
+          "timestamp": 1782986684000
+        },
+        "title": [
+          "An Agentic AI System for Roof Design Compliance Using Computer Vision, Retrieval-Augmented Generation and Large Language Models"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-6773-8347",
+            "authenticated-orcid": false,
+            "given": "Nawari O.",
+            "family": "Nawari",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Architecture, College of Design, Construction and Planning, University of Florida, 1480 Inner Road, Gainesville, FL 32611-5702, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7325-9126",
+            "authenticated-orcid": false,
+            "given": "Oluwatoyin O.",
+            "family": "Lawal",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Architecture, College of Design, Construction and Planning, University of Florida, 1480 Inner Road, Gainesville, FL 32611-5702, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2075-5309/16/13/2637/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.3390/buildings16132637",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "abstract": "<jats:p>\n                    Retrieval-Augmented Generation (RAG) utilizes external knowledge to augment Large Language Models\u2019 (LLMs) reliability. For flexibility, agentic RAG employs autonomous, multi-round retrieval and reasoning to resolve queries. Although recent agentic RAG has improved via reinforcement learning, they often incur substantial token overhead from search and reasoning. This tradeoff prioritizes accuracy over efficiency. To address this issue, this work proposes TeaRAG, a\n                    <jats:italic toggle=\"yes\">T</jats:italic>\n                    oken-\n                    <jats:italic toggle=\"yes\">e</jats:italic>\n                    fficient\n                    <jats:italic toggle=\"yes\">a</jats:italic>\n                    gentic\n                    <jats:italic toggle=\"yes\">RAG</jats:italic>\n                    framework capable of compressing both retrieval content and reasoning steps. (1) First, the retrieved content is compressed by augmenting chunk-based semantic retrieval with a graph retrieval using concise triplets. A knowledge association graph is then built from semantic similarity and co-occurrence. Finally, Personalized PageRank is leveraged to highlight key knowledge within this graph, reducing the number of tokens per retrieval. (2) Besides, to reduce reasoning steps, Iterative Process-aware Direct Preference Optimization (IP-DPO) is proposed. Specifically, our reward function evaluates the knowledge sufficiency by a knowledge matching mechanism, while penalizing excessive reasoning steps. This design can produce high-quality preference-pair datasets, supporting iterative DPO to improve reasoning conciseness. Across six datasets, TeaRAG improves the average Exact Match by\n                    <jats:inline-formula content-type=\"math/tex\">\n                      <jats:tex-math notation=\"LaTeX\" version=\"MathJax\">\\(4\\%\\)</jats:tex-math>\n                    </jats:inline-formula>\n                    and\n                    <jats:inline-formula content-type=\"math/tex\">\n                      <jats:tex-math notation=\"LaTeX\" version=\"MathJax\">\\(2\\%\\)</jats:tex-math>\n                    </jats:inline-formula>\n                    while reducing output tokens by\n                    <jats:inline-formula content-type=\"math/tex\">\n                      <jats:tex-math notation=\"LaTeX\" version=\"MathJax\">\\(61\\%\\)</jats:tex-math>\n                    </jats:inline-formula>\n                    and\n                    <jats:inline-formula content-type=\"math/tex\">\n                      <jats:tex-math notation=\"LaTeX\" version=\"MathJax\">\\(59\\%\\)</jats:tex-math>\n                    </jats:inline-formula>\n                    on Llama3-8B-Instruct and Qwen2.5-14B-Instruct, respectively. Code is available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/Applied-Machine-Learning-Lab/TeaRAG\">https://github.com/Applied-Machine-Learning-Lab/TeaRAG</jats:ext-link>\n                    .\n                  </jats:p>",
+        "DOI": "10.1145/3818621",
+        "created": {
+          "date-parts": [
+            [
+              2026,
               6,
+              13
+            ]
+          ],
+          "date-time": "2026-06-13T14:32:50Z",
+          "timestamp": 1781361170000
+        },
+        "title": [
+          "TeaRAG: A Token-Efficient Agentic Retrieval-Augmented Generation Framework"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0007-2579-8783",
+            "authenticated-orcid": false,
+            "given": "Chao",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Cognitive Intelligence, University of Science and Technology of China, Hefei, China and City University of Hong Kong, Hong Kong, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6051-8659",
+            "authenticated-orcid": false,
+            "given": "Yuhao",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "City University of Hong Kong, Hong Kong, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3971-9907",
+            "authenticated-orcid": false,
+            "given": "Derong",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Cognitive Intelligence, University of Science and Technology of China, Hefei, China and City University of Hong Kong, Hong Kong, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0002-1468-7539",
+            "authenticated-orcid": false,
+            "given": "Haoxin",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Xiaohongshu Inc., Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0001-2628-334X",
+            "authenticated-orcid": false,
+            "given": "Yuanjie",
+            "family": "Lyu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Cognitive Intelligence, University of Science and Technology of China, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0002-6116-3789",
+            "authenticated-orcid": false,
+            "given": "Yuhao",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Cognitive Intelligence, University of Science and Technology of China, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4724-8989",
+            "authenticated-orcid": false,
+            "given": "Shuochen",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Cognitive Intelligence, University of Science and Technology of China, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4246-5386",
+            "authenticated-orcid": false,
+            "given": "Tong",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Cognitive Intelligence, University of Science and Technology of China, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2926-4416",
+            "authenticated-orcid": false,
+            "given": "Xiangyu",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "City University of Hong Kong, Hong Kong, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0004-5960-1684",
+            "authenticated-orcid": false,
+            "given": "Yan",
+            "family": "Gao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Xiaohongshu Inc., Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-1274-7111",
+            "authenticated-orcid": false,
+            "given": "Yao",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Xiaohongshu Inc., Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4835-4102",
+            "authenticated-orcid": false,
+            "given": "Enhong",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Cognitive Intelligence, University of Science and Technology of China, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3818621",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3818621",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              20
+            ]
+          ]
+        }
+      },
+      {
+        "abstract": "<jats:p>Mental health conditions affect over one billion individuals globally and remain challenging to assess accurately due to fragmented clinical data and subjective evaluation methods. Mental health support systems increasingly rely on large language models (LLMs) due to their capabilities in natural language understanding and response generation. While retrieval augmented generation (RAG) and agentic frameworks have improved grounded generation in several domains, there is limited understanding of how such approaches affect response quality in mental health related tasks. In particular, the impact of structured context management and autonomous refinement on clinical relevance, empathy, completeness, and safety remains underexplored. In this study, we investigate the effects of agentic RAG on the performance of multiple mental health oriented language models. We adopt a common pipeline configuration that integrates patient dialogue, structured patient history, and externally retrieved clinical knowledge. The pipeline consists of coordinated stages for patient context retrieval, context augmentation, and response generation with autonomous evaluation and iterative refinement. We conduct empirical evaluations across four mental health models under this pipeline and analyze their performance in terms of medical accuracy, empathy, completeness, safety, and overall response quality. Our results show consistent trends toward improved responses when structured context handling and agentic refinement are applied, indicating that these components influence model behavior independent of architecture. This work provides insight into how agentic RAG influences model outputs in mental health applications and highlights the importance of context engineering and quality control in LLM based support systems. These findings indicate that Agentic Context Engineering (ACE) may contribute to improved reasoning depth, contextual alignment, and patient centered response quality across diverse models. However, despite the improvements observed, the framework remains an early step toward more reliable AI assisted mental health assessment. Continued research is needed to refine model architectures, optimize prompt engineering, and expand evaluation across broader and more diverse clinical contexts to ensure safety, consistency, and real world applicability.</jats:p>",
+        "DOI": "10.32473/flairs.39.1.141782",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ],
+          "date-time": "2026-05-06T13:17:58Z",
+          "timestamp": 1778073478000
+        },
+        "title": [
+          "An Exploratory Study of Agentic Retrieval Augmented Generation for Mental Health Oriented Language Models"
+        ],
+        "author": [
+          {
+            "given": "Khoa",
+            "family": "Pham",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jiacheng",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Hassan",
+            "family": "S. Al Khatib",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Shahram",
+            "family": "Rahimi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Noorbakhsh",
+            "family": "Amiri Golilarz",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Andy",
+            "family": "Perkins",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://journals.flvc.org/FLAIRS/article/download/141782/146987",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.flvc.org/FLAIRS/article/download/141782/146987",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.32473/flairs.39.1.141782",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "abstract": "<jats:p>Retrieval-Augmented Generation (RAG) enhances AI-generated content by integrating external knowledge, improving relevance, and reducing hallucinations. However, RAG also introduces risks related to reliability, safety, privacy, fairness, explainability, and accountability, which impact trustworthiness. While various methods aim to address these concerns, a unified framework is lacking. This survey bridges that gap by presenting a comprehensive roadmap for trustworthy RAG systems. We provide a structured analysis of key challenges, existing solutions, and future directions across these aspects. We further organize the field around how the retrieval and generation stages and the six trustworthiness dimensions interact, demonstrating their synergies and trade-offs through a controlled cross-dimensional analysis. Additionally, we highlight downstream applications where trustworthy RAG can make a significant impact, encouraging further research and adoption in real-world AI systems.</jats:p>",
+        "DOI": "10.1145/3837074",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              6
+            ]
+          ],
+          "date-time": "2026-08-06T11:07:37Z",
+          "timestamp": 1786014457000
+        },
+        "title": [
+          "Towards Trustworthy Retrieval Augmented Generation for Large Language Models: A Survey"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0000-3795-4148",
+            "authenticated-orcid": false,
+            "given": "Bo",
+            "family": "Ni",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Vanderbilt University",
+                "place": [
+                  "Nashville, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7809-4586",
+            "authenticated-orcid": false,
+            "given": "Zheyuan",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Notre Dame",
+                "place": [
+                  "Notre Dame, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3022-7076",
+            "authenticated-orcid": false,
+            "given": "Yongjia",
+            "family": "Lei",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Oregon",
+                "place": [
+                  "Eugene, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-0958-5605",
+            "authenticated-orcid": false,
+            "given": "Leyao",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Yale University",
+                "place": [
+                  "New Haven, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1302-6544",
+            "authenticated-orcid": false,
+            "given": "Yuying",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Vanderbilt University",
+                "place": [
+                  "Nashville, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0009-3990-4414",
+            "authenticated-orcid": false,
+            "given": "Xueqi",
+            "family": "Cheng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Florida State University",
+                "place": [
+                  "Tallahassee, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0858-937X",
+            "authenticated-orcid": false,
+            "given": "Qingkai",
+            "family": "Zeng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Notre Dame",
+                "place": [
+                  "Notre Dame, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0001-2049-2458",
+            "authenticated-orcid": false,
+            "given": "Xin",
+            "family": "Dong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Meta Reality Labs",
+                "place": [
+                  "Redmond, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8155-5440",
+            "authenticated-orcid": false,
+            "given": "Yinglong",
+            "family": "Xia",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Meta Reality Labs",
+                "place": [
+                  "Redmond, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1237-087X",
+            "authenticated-orcid": false,
+            "given": "Krishnaram",
+            "family": "Kenthapadi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Oracle Health AI",
+                "place": [
+                  "Sunnyvale, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9758-0635",
+            "authenticated-orcid": false,
+            "given": "Ryan",
+            "family": "Rossi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Adobe Research",
+                "place": [
+                  "San Jose, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1119-1346",
+            "authenticated-orcid": false,
+            "given": "Franck",
+            "family": "Dernoncourt",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Adobe Research",
+                "place": [
+                  "San Jose, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2847-9872",
+            "authenticated-orcid": false,
+            "given": "Mehrab",
+            "family": "Tanjim",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Adobe",
+                "place": [
+                  "San Jose, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7913-4962",
+            "authenticated-orcid": false,
+            "given": "Nesreen",
+            "family": "Ahmed",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Cisco Research",
+                "place": [
+                  "San Jose, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8217-5688",
+            "authenticated-orcid": false,
+            "given": "Xiaorui",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NCSU",
+                "place": [
+                  "Raleigh, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4049-1233",
+            "authenticated-orcid": false,
+            "given": "Wenqi",
+            "family": "Fan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The Hong Kong Polytechnic University",
+                "place": [
+                  "Hong Kong, Hong Kong"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6894-6108",
+            "authenticated-orcid": false,
+            "given": "Erik",
+            "family": "Blasch",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Air Force Research Laboratory",
+                "place": [
+                  "Dayton, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6908-508X",
+            "authenticated-orcid": false,
+            "given": "Yu",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Oregon",
+                "place": [
+                  "Eugene, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3009-519X",
+            "authenticated-orcid": false,
+            "given": "Meng",
+            "family": "Jiang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Notre Dame",
+                "place": [
+                  "Notre Dame, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0080-5998",
+            "authenticated-orcid": false,
+            "given": "Tyler",
+            "family": "Derr",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Vanderbilt University",
+                "place": [
+                  "Nashville, United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3837074",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3837074",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              4
+            ]
+          ]
+        }
+      },
+      {
+        "abstract": "<jats:p>Retrieval-Augmented Generation (RAG) merges information retrieval (IR) techniques with deep learning advancements to address the static limitations of large language models (LLMs) by enabling the dynamic integration of up-to-date external information. This methodology, focusing primarily on the text domain, provides a cost-effective solution to the generation of plausible but possibly incorrect responses by LLMs, thereby enhancing the accuracy and reliability of their outputs through the use of real-world data. As RAG grows in complexity and incorporates multiple concepts that can influence its performance, this article organizes the RAG paradigm into four categories: pre-retrieval, retrieval, post-retrieval, and generation, offering a detailed perspective from the retrieval viewpoint. It outlines RAG\u2019s mechanics and discusses the field\u2019s progression through the analysis of significant studies. Additionally, the article introduces evaluation methods for RAG, addressing the challenges faced and proposing future research directions. By offering an organized framework and categorization, the study aims at consolidating existing research on RAG, clarify its technological underpinnings, and highlight its potential to broaden the adaptability and applications of LLMs.</jats:p>",
+        "DOI": "10.1145/3805774",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              4,
               9
             ]
-          ]
+          ],
+          "date-time": "2026-04-09T11:26:28Z",
+          "timestamp": 1775733988000
         },
-        "created": {
-          "date-time": "2026-06-09T10:00:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671821"
-      },
-      {
-        "DOI": "10.1145/3637528.3671822",
         "title": [
-          "Advanced Perspectives on Automated Data Quality Profiling with Great Expectations in CI/CD"
+          "A Survey on Retrieval-Augmented Text Generation for Large Language Models"
         ],
-        "abstract": "<jats:p>An extended empirical study on mbedding quality checks directly into data pipelines enables fail-closed governance. We show how Great Expectations suites catch schema drifts and null fields before documents reach the embedding model Further analysis on scaling parameters.</jats:p>",
         "author": [
           {
-            "given": "Son",
-            "family": "Nguyen"
+            "ORCID": "https://orcid.org/0000-0003-4592-0778",
+            "authenticated-orcid": false,
+            "given": "Yizheng",
+            "family": "Huang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Information Retrieval and Knowledge Management Research Lab, York University",
+                "place": [
+                  "Toronto, Canada"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
           },
           {
-            "given": "Thuy",
-            "family": "Doan"
+            "ORCID": "https://orcid.org/0000-0003-1292-1491",
+            "authenticated-orcid": false,
+            "given": "Jimmy Xiangji",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Information Retrieval and Knowledge Management Research Lab, York University",
+                "place": [
+                  "Toronto, Canada"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
           }
         ],
-        "subject": [
-          "Data Quality",
-          "DevOps"
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3805774",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3805774",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              15
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.22214/ijraset.2026.84752",
+        "title": [
+          "Large Language Models Hallucinate and How Retrieval- Augmented Generation Mitigates It"
+        ],
+        "abstract": "<jats:p>Large Language Models (LLMs) can generate fluent and convincing responses, but fluency does not guarantee\nfactual correctness. Hallucination occurs when a model produces information that is false, unsupported, or inconsistent\nwith available evidence. This paper reviews why hallucinations arise andexamine Retrieval-Augmented Generation (RAG)\nas a practical mitigation strategy. The discussion focuses on prediction-based generation, missing or outdated knowledge,\nambiguous queries, and the absence of automatic verification. RAG addresses these limitations by retrieving relevant\ninformation from an external knowledge source and supplying it to the generator as contextual evidence. The paper\ndescribes the major stages of a RAG pipeline, including document ingestion, chunking, embeddings, vector storage,\nretrieval, context augmentation, and answer generation. It also examines the conditions under which RAG can fail,\nincluding poor retrieval, incomplete knowledge bases, unreliable sources, weak ranking, and incorrect interpretation of\nretrieved context. Finally, the paper discusses evaluation dimensions such as context relevance, answer faithfulness, and\nanswer relevance, and outlines applications of RAG in education, enterprise search, technical support, research assistance,\nand document question answering. The analysis concludes that RAG should be viewed as a grounding and evidence-access\nmechanism rather than a guarantee of hallucination-free generation</jats:p>",
+        "author": [
+          {
+            "given": "Shyalaja",
+            "family": "L N",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shantinath",
+            "family": "Patil",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Pruthviraj",
+            "family": "S R",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shreyas Bharadwaj",
+            "family": "B M",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Harshitha",
+            "family": "P",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
         ],
         "published": {
           "date-parts": [
             [
               2026,
+              8,
+              31
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              31
+            ]
+          ],
+          "date-time": "2026-08-31T08:15:30Z",
+          "timestamp": 1788164130000
+        },
+        "URL": "https://doi.org/10.22214/ijraset.2026.84752"
+      },
+      {
+        "abstract": "<jats:p>The Retrieval-Augmented Generation (RAG) paradigm has been proposed as a potent concept that would increase the factual accuracy, reliability, and adaptability of Large Language Models (LLMs) by incorporating external information retrieval and text generation. In comparison to an independent LLM, which leverages solely parametric knowledge, RAG dynamically accesses non-parametric knowledge sources during inference that are up-to-date and are founded on the evidence that was accessed to generate the response. This paper summarizes the foundations of RAG, its architecture, major components (retriever and generator) and an indexing-retrieval-generation methodology. It critically examines retrieval strategies in which sparse, dense and hybrid retrieval are examined with their efficiency trade-offs, semantic insight, interpretability and application to domain-specific tasks including healthcare. The paper further compares RAG with fine-tuning and brings out the differences in updating knowledge, customization and hallucination reduction. Finally, the augmentation strategies, the higher-level techniques iterative, recursive and adaptive retrieval are discussed to solve the complex, multi-step reasoning tasks. In summary, the paper reveals that RAG is a scalable and powerful AI-based solution that is knowledge-intensive.</jats:p>",
+        "DOI": "10.63503/j.ijaimd.2026.233",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              9
+            ]
+          ],
+          "date-time": "2026-04-09T04:00:28Z",
+          "timestamp": 1775707228000
+        },
+        "title": [
+          "Retrieval-Augmented Generation (RAG) for Large Language Models: A Comprehensive Survey"
+        ],
+        "author": [
+          {
+            "given": "Tanay",
+            "family": "Chowdhury",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://submissions.adroidjournals.com/index.php/ijaimd/article/download/233/105",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://submissions.adroidjournals.com/index.php/ijaimd/article/download/233/105",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.63503/j.ijaimd.2026.233",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "abstract": "<jats:p>Large Language Models (LLMs) have been rapidly evolving lately, resulting in the need for strong, explainable models to detect the difference between human-generated and machine-generated articles. Existing approaches which are mostly based on fine-tuned transformers suffer from several drawbacks such as rapid obsolescence, paraphrasing attacks, and lack of interpretability. To improve their ability to detect, this paper proposes a novel paradigm called Human vs. LLM Identification (HLI) which introduces a Retrieval-Augmented Generation (RAG)-inspired evidence-based detection strategy alongside a fine-tuned transformer classifier. Our core model, DeBERTa-Sentinel, is built on top of a fine-tuned Microsoft DeBERTa-v3-small model, which uses a disentangled attention mechanism to better capture subtle syntactic and stylistic deviations characteristic of AI-generated text. We evaluate our framework on a balanced dataset of 43,456 text samples, curated from the OpenGPTText corpus and covering AI-generated and human-authored content across diverse domains including news, education, and creative text. The experimental results show improved performance over the selected baselines, with our framework achieving an accuracy of 97.53%, precision of 95.89%, recall of 99.34%, and ROC-AUC of 99.53%. In addition, explainability is integrated into our framework through Local Interpretable Model-agnostic Explanations (LIME) analysis, providing token-level insight into classification decisions. This study establishes a benchmark for scalable, explainable AI text detection, with implications for academic integrity, content moderation, and combating misinformation.</jats:p>",
+        "DOI": "10.3390/knowledge6030022",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              25
+            ]
+          ],
+          "date-time": "2026-08-25T08:00:48Z",
+          "timestamp": 1787644848000
+        },
+        "title": [
+          "Integrating Retrieval-Augmented Generation with Large Language Model for Robust and Explainable AI Text Detection"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0003-7391-9691",
+            "authenticated-orcid": false,
+            "given": "Ibtasam Ur",
+            "family": "Rehman",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of computing, The Millennium Universal College (TMUC), Islamabad 44000, Pakistan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4845-4808",
+            "authenticated-orcid": false,
+            "given": "Muhammad",
+            "family": "Islam",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Science and Engineering, James Cook University, Cairns, QLD 4878, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Muhammad Yousaf",
+            "family": "Rehman",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, University of Hertfordshire, Hatfield AL10 9AB, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7492-5725",
+            "authenticated-orcid": false,
+            "given": "Basharat",
+            "family": "Hussain",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, National University of Computer and Emerging Sciences, Islamabad 44000, Pakistan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2673-9585/6/3/22/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.3390/knowledge6030022",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              25
+            ]
+          ]
+        }
+      },
+      {
+        "abstract": "<jats:p>A large language model pipeline automatically summarized oncologic histories with high efficiency, accuracy, and completeness; speed and performance varied depending on the model used (GPT-4o mini, o3-mini, GPT-5-mini [OpenAI]).</jats:p>",
+        "DOI": "10.1148/radiol.251581",
+        "created": {
+          "date-parts": [
+            [
+              2026,
               6,
+              16
+            ]
+          ],
+          "date-time": "2026-06-16T13:48:56Z",
+          "timestamp": 1781617736000
+        },
+        "title": [
+          "Zero-shot Thoracic Oncologic History Generation for Radiologists                     Using Retrieval-augmented Large Language Model Pipeline"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2221-3512",
+            "authenticated-orcid": false,
+            "given": "Karan",
+            "family": "Jani",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Mallinckrodt Institute of Radiology, Washington                     University School of Medicine, 510 S Kingshighway Blvd, St Louis, MO 63110"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6840-6432",
+            "authenticated-orcid": false,
+            "given": "Govind",
+            "family": "Mattay",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Mallinckrodt Institute of Radiology, Washington                     University School of Medicine, 510 S Kingshighway Blvd, St Louis, MO 63110"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0003-2298-5744",
+            "authenticated-orcid": false,
+            "given": "Vamsi",
+            "family": "Narra",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Mallinckrodt Institute of Radiology, Washington                     University School of Medicine, 510 S Kingshighway Blvd, St Louis, MO 63110"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0333-9221",
+            "authenticated-orcid": false,
+            "given": "Anup",
+            "family": "Shetty",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Mallinckrodt Institute of Radiology, Washington                     University School of Medicine, 510 S Kingshighway Blvd, St Louis, MO 63110"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9463-4746",
+            "authenticated-orcid": false,
+            "given": "Glenwood",
+            "family": "Stancil",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Mallinckrodt Institute of Radiology, Washington                     University School of Medicine, 510 S Kingshighway Blvd, St Louis, MO 63110"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8894-1504",
+            "authenticated-orcid": false,
+            "given": "Andrew",
+            "family": "Bierhals",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Mallinckrodt Institute of Radiology, Washington                     University School of Medicine, 510 S Kingshighway Blvd, St Louis, MO 63110"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0387-2299",
+            "authenticated-orcid": false,
+            "given": "Yasasvi",
+            "family": "Tadavarthi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Mallinckrodt Institute of Radiology, Washington                     University School of Medicine, 510 S Kingshighway Blvd, St Louis, MO 63110"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "link": [
+          {
+            "URL": "http://pubs.rsna.org/doi/pdf/10.1148/radiol.251581",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1148/radiol.251581",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.63328/ijcser-v3ri3p6",
+        "title": [
+          "Quantum-Enhanced Retrieval-Augmented Generation for Hallucination Reduction in Large Language Models"
+        ],
+        "abstract": "<jats:p>Although the performance of LLMs on a wide variety of natural language processing problems demonstrates remarkable ability, hallucinated responses are introduced as one of the key weaknesses of LLMs, especially in knowledge-intensive applications, where fidelity to facts is paramount. While effective in reducing hallucinations, the context retrieved during the RAG operations is still very often suboptimal with respect to the external documents used in the retrieval stage, and being based on cosine similarity and nearest-neighbour search, these models typically do not return optimal context to support factual generation. The authors propose a five-stage solution, called Quantum-Enhanced Retrieval-Augmented Generation (QERAG), which combines the use of a quantum-inspired probability amplitude document ranking, a Context Utility Score (CUS) optimisation engine, and a Hallucination Verification Agent (HVA) based on a formal Hallucination Reduction Index (HRI). The Quantum Relevance Score (QRS) uses interference based, Amplitude Encoding on candidate Document Sets to yield a normalised relevance distribution that emphasises the relatively higher value generated in the discriminative context as compared to other locally similar passages in a document set. QERAG outperforms Standard LLM and Traditional RAG models on all five Natural benchmark across response accuracy, with a score of 92.8% vs. 74.3%, and hallucination rate, 4.3% vs. 18.2%, respectively. They achieve a significant overall improvement by using quantum-inspired retrieval layer, which achieves a 3.5-percentage-point reduction in hallucination rate when compared to cosine-similarity RAG, with this single layer showing more reduction than the rest of the pipeline layers. The results of an ablation study show the individual contribution of every pipeline stage, and the quantum-inspired retrieval layer exhibits the greatest reduction of a 3.5 percentage points over cosine-similarity RAG.</jats:p>",
+        "author": [
+          {
+            "given": "Praveenkumar",
+            "family": "Seepana",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/00hs7dr46",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "Ural Federal University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              3
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              8,
               10
             ]
-          ]
+          ],
+          "date-time": "2026-08-10T09:53:01Z",
+          "timestamp": 1786355581000
         },
-        "created": {
-          "date-time": "2026-06-10T10:00:00Z"
-        },
-        "URL": "https://doi.org/10.1145/3637528.3671822"
+        "URL": "https://doi.org/10.63328/ijcser-v3ri3p6"
       },
       {
-        "DOI": "10.1145/3637528.3671823",
+        "abstract": "<jats:p>The escalating volume and complexity of scientific publications have intensified the demand for intelligent literature survey tools. Current systems, whether based on large language models (LLMs) or retrieval augmented generation (RAG), often struggle with terminological accuracy and semantic coherence, limiting their practical adoption. To address this, we propose a novel LLM-driven framework that synergizes multi-agent collaboration with RAG to enhance both the structural coherence of full-document surveys and the factual reliability of generated content. On the SciReviewGen benchmark, our model achieves Recall-Oriented Understudy for Gisting Evaluation (ROUGE)-1/2/L scores of 42.84/16.57/18.25, outperforming strong baselines including Query-weighted Fusion-in-Decoder (QFiD), Fusion-in-Decoder (FiD), BigBird, GPT-4o-mini, and Llama4-17B-16E. The framework also excels in human-aligned evaluation, attaining an LLM-as-judge score of 0.70, surpassing QFiD by +0.29. Ablation studies confirm the critical role of both RAG and multi-agent design: removing RAG reduces ROUGE-2/L by 2.28/3.19, while single-agent ablation further decreases ROUGE-1 by 1.15. Our work not only advances the state of the art in automated literature synthesis but also offers a scalable solution to mounting scholarly information overload.</jats:p>",
+        "DOI": "10.7717/peerj-cs.3882",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              27
+            ]
+          ],
+          "date-time": "2026-05-27T08:18:22Z",
+          "timestamp": 1779869902000
+        },
         "title": [
-          "Advanced Perspectives on Hybrid Search Architectures: Combining BM25 with Dense Representations"
+          "A large language model-driven scientific literature surveys generation framework based on multi-agents and retrieval-augmented generation"
         ],
-        "abstract": "<jats:p>An extended empirical study on ense vector search excels at conceptual similarity but struggles with exact acronyms and serial numbers. Reciprocal Rank Fusion of sparse lexical scores and dense embeddings achieves optimal recall Further analysis on scaling parameters.</jats:p>",
         "author": [
           {
-            "given": "Dat",
-            "family": "Tran"
+            "given": "Ruihua",
+            "family": "Qi",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Software, Dalian University of Foreign Languages, Dalian, Liaoning Province, China"
+              },
+              {
+                "name": "Research Center of Language Intelligence, Dalian University of Foreign Languages, Dalian, Liaoning Province, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
           },
           {
-            "given": "Lan",
-            "family": "Pham"
+            "ORCID": "https://orcid.org/0009-0004-5841-7105",
+            "authenticated-orcid": true,
+            "given": "Haobo",
+            "family": "Lyu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Software, Dalian University of Foreign Languages, Dalian, Liaoning Province, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Weilong",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Software, Dalian University of Foreign Languages, Dalian, Liaoning Province, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shuqin",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Software, Dalian University of Foreign Languages, Dalian, Liaoning Province, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xu",
+            "family": "Guo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Software, Dalian University of Foreign Languages, Dalian, Liaoning Province, China"
+              },
+              {
+                "name": "Research Center of Language Intelligence, Dalian University of Foreign Languages, Dalian, Liaoning Province, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
           }
         ],
-        "subject": [
-          "Information Retrieval",
-          "Algorithms"
+        "link": [
+          {
+            "URL": "https://peerj.com/articles/cs-3882.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://peerj.com/articles/cs-3882.xml",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://peerj.com/articles/cs-3882.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://peerj.com/articles/cs-3882.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.7717/peerj-cs.3882",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              27
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.55041/ijsrem61473",
+        "title": [
+          "Real-Time Fact-Checking using Retrieval-Augmented Generation and Large Language Models"
+        ],
+        "abstract": "<jats:p>Abstract\u2014The rapid spread of misinformation on online plat-forms has motivated extensive research in automated fake news detection. Building on the LingML framework for linguistic-informed fake news detection, we study three transformer-based models\u2014ALBERT, BERTweet, and CT-BERT\u2014for COVID-19 news classification and analyze their performance on a bench-mark dataset. We further extend this line of work by developing a real-time fact-checking system that uses retrieval- augmented generation (RAG) and a large language model (LLM) to verify user-submitted claims based on up-to-date web evidence. Our system retrieves relevant web snippets through a search API, constructs a retrieval-augmented prompt, and queries GPT-4o to produce structured verdicts, confidence scores, and explana-tions, which are stored in a database and exposed through a web interface. Experiments on the CONSTRAINT-style COVID- 19 fake news data and qualitative case studies on real-time news demonstrate the feasibility of combining transformer-based classifiers with RAG-based LLM reasoning for practical fact-checking applications.\n\nIndex Terms\u2014Fake news detection, LingML, transformer models, ALBERT, BERTweet, CT-BERT, retrieval-augmented generation, large language models, fact-checking</jats:p>",
+        "author": [
+          {
+            "given": "Riharika",
+            "family": "Riharika",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Computer Science and Engineering  Rajiv Gandhi University of Knowledge Technologies"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Navya",
+            "family": "Sidarla",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Computer Science and Engineering  Rajiv Gandhi University of Knowledge TechnologiesComputer Science and Engineering  Rajiv Gandhi University of Knowledge Technologies"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Shivakumar",
+            "family": "Jagadam",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Computer Science and Engineering  Rajiv Gandhi University of Knowledge Technologies"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Abhilash",
+            "family": "Nadigottu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Computer Science and Engineering  Rajiv Gandhi University of Knowledge Technologies"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
         ],
         "published": {
           "date-parts": [
             [
               2026,
-              6,
-              11
+              4,
+              27
             ]
           ]
         },
         "created": {
-          "date-time": "2026-06-11T10:00:00Z"
+          "date-parts": [
+            [
+              2026,
+              4,
+              27
+            ]
+          ],
+          "date-time": "2026-04-27T09:41:20Z",
+          "timestamp": 1777282880000
         },
-        "URL": "https://doi.org/10.1145/3637528.3671823"
+        "URL": "https://doi.org/10.55041/ijsrem61473"
       },
       {
-        "DOI": "10.1145/3637528.3671824",
+        "DOI": "10.66917/ijaeic.a000015",
         "title": [
-          "Advanced Perspectives on Continuous Benchmark Evaluation for Enterprise Retrieval Pipelines"
+          "Parameter-Efficient Contextual Calibration for Hallucination Mitigation in Domain-Specific Large Language Model Retrieval-Augmented Generation"
         ],
-        "abstract": "<jats:p>An extended empirical study on tatic benchmarks fail to capture domain drift in enterprise knowledge bases. We establish a synthetic test generator that auto-creates paired evaluation sets whenever new corpora are ingested Further analysis on scaling parameters.</jats:p>",
+        "abstract": "<jats:p>Retrieval-Augmented Generation (RAG) has become the gold standard paradigm for deploying Large Language Models (LLMs) in knowledge-intensive and high-stakes domains such as biomedical inquiry, financial compliance, and legal reasoning. Despite providing external grounding documents, LLMs continue to exhibit insidious factual hallucinations\u2014either by fabricating plausible-sounding unsupported assertions or by ignoring conflicting retrieved evidence in favor of memorized parametric training biases. Existing mitigation approaches, such as full-parameter fine-tuning or iterative self-reflection prompting, incur prohibitive computational costs and excessive inference latency. In this paper, we propose CAL-RAG (Context-Aware Low-Rank Calibration for RAG), a parameter-efficient fine-tuning and decoding calibration framework designed to enforce strict contextual faithfulness without compromising generative fluency. CAL-RAG introduces a dual-channel Low-Rank Adaptation (LoRA) mechanism: a Context-Grounded Adapter that measures token-level semantic consistency against retrieved evidence chunks, and an Entropy-Gated Decoding Controller that dynamically modulates vocabulary probability distributions during autoregressive generation based on cross-attention dispersion. We conduct extensive empirical evaluations across three challenging domain benchmarks: BioASQ (biomedical), FinQA (financial reasoning), and LegalBench (legal clause interpretation), utilizing open-source LLM backbones (Llama-3-8B, Mistral-7B-Instruct, and Gemma-7B). CAL-RAG reduces factual hallucination rates by 43.7% relative to standard RAG baselines while improving Faithfulness Score from 0.642 to 0.891 and answer accuracy by +11.8% F1. Remarkably, CAL-RAG adds only 0.4% trainable parameters and introduces less than 6.5 ms token latency overhead, making it highly suitable for enterprise production deployment.</jats:p>",
         "author": [
           {
-            "given": "Quang",
-            "family": "Le"
+            "given": "Sophia N.",
+            "family": "Tawar",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
           },
           {
-            "given": "Yen",
-            "family": "Vu"
+            "given": "Liam K.",
+            "family": "Peing",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Amani",
+            "family": "Bellow",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
           }
-        ],
-        "subject": [
-          "Evaluation Methodology",
-          "Enterprise Systems"
         ],
         "published": {
           "date-parts": [
             [
               2026,
-              6,
-              12
+              8,
+              30
             ]
           ]
         },
         "created": {
-          "date-time": "2026-06-12T10:00:00Z"
+          "date-parts": [
+            [
+              2026,
+              8,
+              30
+            ]
+          ],
+          "date-time": "2026-08-30T06:02:10Z",
+          "timestamp": 1788069730000
         },
-        "URL": "https://doi.org/10.1145/3637528.3671824"
+        "URL": "https://doi.org/10.66917/ijaeic.a000015"
+      },
+      {
+        "DOI": "10.21079/11681/50309",
+        "title": [
+          "Microsoft Azure artificial intelligence / machine learning hackathon for development of retrieval-augmented generation large language model"
+        ],
+        "abstract": "<jats:p>The US Army Corps of Engineers (USACE) Civil Works (CW) research and development (R&amp;D) mission is to address challenging environmental sustainability problems through innovative science and engineering, which helps to ensure a safer, more prosperous, and more resilient nation. To achieve this, the US Army Engineer Research and Development Center (ERDC) plans, executes, leads, and directs many R&amp;D programs in coordination with USACE Headquarters, Districts, and Divisions through its multiple strategic focus areas, which include infrastructure, water modeling, crisis preparedness, ecosystem, sediment management, data, artificial intelligence, and robotics. In this process, much information is generated, including internal progress reviews, financial reports, scopes of work, work package planning, and success stories.</jats:p>",
+        "author": [
+          {
+            "given": "Janet L.",
+            "family": "Autrey",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lacey S.",
+            "family": "Duckworth",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ashly N.",
+            "family": "Horner",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Thomas",
+            "family": "Sigler",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Victoria D.",
+            "family": "Moore",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              10
+            ]
+          ],
+          "date-time": "2026-07-10T14:51:37Z",
+          "timestamp": 1783695097000
+        },
+        "URL": "https://doi.org/10.21079/11681/50309"
+      },
+      {
+        "abstract": "<jats:sec>\n                    <jats:title>Background</jats:title>\n                    <jats:p>Large language models (LLMs) are increasingly explored for clinical decision support but are limited by high computational and energy demands. Smaller language models (SLMs), particularly when combined with retrieval-augmented generation (RAG), may offer a more sustainable alternative. Rheumatology, characterized by diagnostic complexity and guideline-driven management, represents a suitable test domain.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods</jats:title>\n                    <jats:p>Five state-of-the-art language models (GPT-4o, Mixtral-8 \u00d7 7b-32768, Llama-3.1-Nemotron-70b-Instruct, Qwen-Turbo 2.5, Claude-3.5-Sonnet) were evaluated regarding their suitability for clinical decision support using ten standardized, anonymized rheumatology cases. Models were assessed with and without RAG, and with or without a predefined diagnosis. Diagnostic and therapeutic accuracy were quantified using F1 scores. Factual consistency and relevance were assessed using the Retrieval-Augmented Generation Assessment Score (RAGAS).</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>Mixtral-8 \u00d7 7b-32768 with RAG achieved the highest diagnostic (72%) and therapeutic (73%) F1 scores. Nemotron-70b showed strong diagnostic performance without RAG (71%), while Qwen-Turbo performed well in therapeutic recommendations without retrieval (72%). The highest RAGAS score was observed for Mixtral with RAG (81%). Performance regarding clinical decision support varied substantially across models and configurations.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusion</jats:title>\n                    <jats:p>SLMs combined with RAG can match or exceed the performance of larger LLMs for clinical decision support while requiring significantly fewer computational resources. Despite promising results, clinically relevant errors persisted across all models, underscoring the need for expert oversight and further real-world validation.</jats:p>\n                  </jats:sec>",
+        "DOI": "10.3389/fmed.2026.1817215",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              8
+            ]
+          ],
+          "date-time": "2026-05-08T04:32:08Z",
+          "timestamp": 1778214728000
+        },
+        "title": [
+          "Low-energy small language models with retrieval-augmented generation can surpass large-model performance in rheumatology"
+        ],
+        "author": [
+          {
+            "given": "Sabine",
+            "family": "Felde",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Institute of IT Management and Digitization Research (IFID), FOM University of Applied Sciences",
+                "place": [
+                  "D\u00fcsseldorf, Germany"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "R\u00fcdiger",
+            "family": "Buchkremer",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of IT Management and Digitization Research (IFID), FOM University of Applied Sciences",
+                "place": [
+                  "D\u00fcsseldorf, Germany"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Gamal",
+            "family": "Chehab",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Rheumatology, University Hospital D\u00fcsseldorf, Medical Faculty of Heinrich-Heine-University",
+                "place": [
+                  "D\u00fcsseldorf, Germany"
+                ]
+              },
+              {
+                "name": "Hiller Research Center, Medical Faculty of Heinrich-Heine-University D\u00fcsseldorf",
+                "place": [
+                  "D\u00fcsseldorf, Germany"
+                ]
+              },
+              {
+                "name": "Department of Rheumatology and Clinical Immunology, KEM Kliniken Essen-Mitte",
+                "place": [
+                  "Essen, Germany"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Christian",
+            "family": "Thielscher",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Competence Center for Medical Economics, FOM University of Applied Sciences",
+                "place": [
+                  "Essen, Germany"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "J\u00f6rg H. W.",
+            "family": "Distler",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Rheumatology, University Hospital D\u00fcsseldorf, Medical Faculty of Heinrich-Heine-University",
+                "place": [
+                  "D\u00fcsseldorf, Germany"
+                ]
+              },
+              {
+                "name": "Hiller Research Center, Medical Faculty of Heinrich-Heine-University D\u00fcsseldorf",
+                "place": [
+                  "D\u00fcsseldorf, Germany"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Matthias",
+            "family": "Schneider",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Rheumatology, University Hospital D\u00fcsseldorf, Medical Faculty of Heinrich-Heine-University",
+                "place": [
+                  "D\u00fcsseldorf, Germany"
+                ]
+              },
+              {
+                "name": "Hiller Research Center, Medical Faculty of Heinrich-Heine-University D\u00fcsseldorf",
+                "place": [
+                  "D\u00fcsseldorf, Germany"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jutta G.",
+            "family": "Richter",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Rheumatology, University Hospital D\u00fcsseldorf, Medical Faculty of Heinrich-Heine-University",
+                "place": [
+                  "D\u00fcsseldorf, Germany"
+                ]
+              },
+              {
+                "name": "Hiller Research Center, Medical Faculty of Heinrich-Heine-University D\u00fcsseldorf",
+                "place": [
+                  "D\u00fcsseldorf, Germany"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://www.frontiersin.org/articles/10.3389/fmed.2026.1817215/full",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.3389/fmed.2026.1817215",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              8
+            ]
+          ]
+        }
       }
-    ]
+    ],
+    "items-per-page": 24,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
   }
 }

@@ -1,0 +1,56 @@
+[
+  {
+    "action": "drop_latest_records",
+    "count": 4,
+    "indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "action": "blank_summary",
+    "count": 4,
+    "indices": [
+      0,
+      17,
+      15,
+      1
+    ]
+  },
+  {
+    "action": "inject_noise",
+    "count": 3,
+    "indices": [
+      1,
+      17,
+      2
+    ]
+  },
+  {
+    "action": "truncate_title",
+    "count": 2,
+    "indices": [
+      3,
+      5
+    ]
+  },
+  {
+    "action": "stale_date",
+    "count": 3,
+    "indices": [
+      11,
+      12,
+      0
+    ]
+  },
+  {
+    "action": "duplicate_rows",
+    "count": 2,
+    "indices": [
+      14,
+      3
+    ]
+  }
+]

@@ -1,10 +1,26 @@
 from __future__ import annotations
 
+from dataclasses import dataclass
 from datetime import UTC, datetime
 import json
 from pathlib import Path
 import re
 from typing import Any, Iterable
+
+
+@dataclass(frozen=True)
+class PaperRecord:
+    paper_id: str
+    title: str
+    summary: str
+    authors: list[str]
+    categories: list[str]
+    primary_category: str
+    published: str
+    updated: str
+    abs_url: str
+    pdf_url: str
+    comment: str
 
 
 def ensure_parent(path: Path) -> None:
