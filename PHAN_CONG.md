@@ -42,7 +42,7 @@ docs/
 
 ---
 
-## 👤 TV1 — Pipeline Lead & Integrator (Trưởng nhóm)
+## 👤 TV1: Nguyễn Thanh Dương (2A202602961) — Pipeline Lead & Integrator (Trưởng nhóm)
 
 ### File sở hữu
 | File | Hành động |
@@ -123,7 +123,7 @@ def main():
 
 ---
 
-## 👤 TV2 — Data Foundation Owner
+## 👤 TV2: Trần Nhật Minh (2A202602483) — Data Foundation Owner
 
 ### File sở hữu
 | File | Hành động |
@@ -195,7 +195,7 @@ Cột bắt buộc trong output DataFrame:
 
 ---
 
-## 👤 TV3 — RAG & Agent Specialist
+## 👤 TV3: Ngô Minh Trí (2A202602993) — RAG & Agent Specialist
 
 ### File sở hữu
 | File | Hành động |
@@ -226,7 +226,7 @@ TV3 đóng vai **QA/Tester chính** của nhóm vì các module `retrieval/` đ�
 
 ---
 
-## 👤 TV4 — Observability & Evaluation Lead
+## 👤 TV4: Dương Thị Hồng Viên (2A202602385) — Observability & Evaluation Lead
 
 ### File sở hữu
 | File | Hành động |
