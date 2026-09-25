@@ -1,0 +1,38 @@
+{
+  "scope": "TV3 data contract checks, not official quality/freshness report",
+  "run_date": "2026-09-25T09:05:56.554232+00:00",
+  "raw_sha256": "7fe33f14f1770c1ab906fa5450436c35f24421ec2a89f8ceb541e84eabd2492b",
+  "baseline_rows": 24,
+  "corrupted_rows": 23,
+  "repaired_rows": 24,
+  "checks": [
+    {
+      "name": "clean_has_24_papers",
+      "passed": true
+    },
+    {
+      "name": "clean_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "clean_contract",
+      "passed": true
+    },
+    {
+      "name": "embedding_text_matches_metadata",
+      "passed": true
+    },
+    {
+      "name": "corruption_does_not_mutate_baseline",
+      "passed": true
+    },
+    {
+      "name": "repair_equals_baseline",
+      "passed": true
+    },
+    {
+      "name": "repair_idempotent",
+      "passed": true
+    }
+  ]
+}

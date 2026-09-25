@@ -1,0 +1,132 @@
+{
+  "scope": "TV3 integration probes; not official phase1/corruption pipeline metrics",
+  "run_date": "2026-09-25T09:05:56.554232+00:00",
+  "raw_sha256": "7fe33f14f1770c1ab906fa5450436c35f24421ec2a89f8ceb541e84eabd2492b",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "versions": {
+    "chromadb": "1.5.9",
+    "sentence-transformers": "6.1.0",
+    "pandas": "3.0.6",
+    "langchain": "1.4.2"
+  },
+  "probe_count": 96,
+  "checks_passed": 745,
+  "stages": {
+    "baseline": {
+      "rows": 24,
+      "unique_papers": 24,
+      "collection": "papers-baseline",
+      "samples": 96,
+      "semantic_hit_at_4": 0.96875,
+      "qa_hit_at_4": 1,
+      "qa_token_f1": 0.75,
+      "empty_reference_count": 24,
+      "qa_token_f1_nonempty": 1.0,
+      "by_question_type": {
+        "summary": {
+          "samples": 24,
+          "token_f1": 1.0
+        },
+        "authors": {
+          "samples": 24,
+          "token_f1": 1.0
+        },
+        "date": {
+          "samples": 24,
+          "token_f1": 1.0
+        },
+        "categories": {
+          "samples": 24,
+          "token_f1": 0.0
+        }
+      },
+      "blank_summaries": 0,
+      "duplicate_paper_rows": 0
+    },
+    "corrupted": {
+      "rows": 23,
+      "unique_papers": 20,
+      "collection": "papers-corrupted",
+      "samples": 96,
+      "semantic_hit_at_4": 0.78125,
+      "qa_hit_at_4": 0.8333333333333334,
+      "qa_token_f1": 0.558195036592496,
+      "empty_reference_count": 24,
+      "qa_token_f1_nonempty": 0.7442600487899947,
+      "by_question_type": {
+        "summary": {
+          "samples": 24,
+          "token_f1": 0.6911134797033175
+        },
+        "authors": {
+          "samples": 24,
+          "token_f1": 0.8333333333333334
+        },
+        "date": {
+          "samples": 24,
+          "token_f1": 0.7083333333333334
+        },
+        "categories": {
+          "samples": 24,
+          "token_f1": 0.0
+        }
+      },
+      "blank_summaries": 4,
+      "duplicate_paper_rows": 3
+    },
+    "repaired": {
+      "rows": 24,
+      "unique_papers": 24,
+      "collection": "papers-repaired",
+      "samples": 96,
+      "semantic_hit_at_4": 0.96875,
+      "qa_hit_at_4": 1,
+      "qa_token_f1": 0.75,
+      "empty_reference_count": 24,
+      "qa_token_f1_nonempty": 1.0,
+      "by_question_type": {
+        "summary": {
+          "samples": 24,
+          "token_f1": 1.0
+        },
+        "authors": {
+          "samples": 24,
+          "token_f1": 1.0
+        },
+        "date": {
+          "samples": 24,
+          "token_f1": 1.0
+        },
+        "categories": {
+          "samples": 24,
+          "token_f1": 0.0
+        }
+      },
+      "blank_summaries": 0,
+      "duplicate_paper_rows": 0
+    }
+  },
+  "corrupted_minus_baseline": {
+    "semantic_hit_at_4": -0.1875,
+    "qa_hit_at_4": -0.16666666666666663,
+    "qa_token_f1": -0.19180496340750397
+  },
+  "findings": [
+    {
+      "unknown_exact_title_answer": "Ruihua Qi, Haobo Lyu, Weilong Li, Shuqin Chen, Xu Guo",
+      "unknown_exact_title_returned_ids": [
+        "10.7717/peerj-cs.3882",
+        "10.1148/radiol.251581",
+        "10.55041/ijsrem61473",
+        "10.20944/preprints202604.0339.v1"
+      ],
+      "note": "QA falls back to nearest paper even when the exact title is absent."
+    }
+  ],
+  "not_run": [
+    "LLM judge",
+    "Ragas",
+    "TV4 quality/freshness",
+    "TV1 official pipelines"
+  ]
+}
