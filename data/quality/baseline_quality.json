@@ -1,0 +1,32 @@
+{
+  "report_name": "baseline",
+  "success": true,
+  "total_checks": 6,
+  "passed_checks": 6,
+  "results": [
+    {
+      "expectation": "ExpectTableRowCountToBeBetween",
+      "success": true
+    },
+    {
+      "expectation": "ExpectColumnValuesToNotBeNull",
+      "success": true
+    },
+    {
+      "expectation": "ExpectColumnValuesToNotBeNull",
+      "success": true
+    },
+    {
+      "expectation": "ExpectColumnValuesToNotBeNull",
+      "success": true
+    },
+    {
+      "expectation": "ExpectColumnValuesToBeUnique",
+      "success": true
+    },
+    {
+      "expectation": "ExpectColumnValueLengthsToBeBetween",
+      "success": true
+    }
+  ]
+}

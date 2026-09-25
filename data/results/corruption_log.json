@@ -23,9 +23,9 @@
     "action": "inject_noise",
     "count": 3,
     "indices": [
-      1,
-      17,
-      2
+      10,
+      7,
+      12
     ]
   },
   {
@@ -47,10 +47,11 @@
   },
   {
     "action": "duplicate_rows",
-    "count": 2,
+    "count": 3,
     "indices": [
       14,
-      3
+      3,
+      2
     ]
   }
 ]

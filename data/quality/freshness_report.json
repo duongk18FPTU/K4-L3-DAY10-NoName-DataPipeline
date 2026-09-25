@@ -1,0 +1,9 @@
+{
+  "freshness_threshold_days": 180,
+  "latest_published": "2026-09-13",
+  "oldest_published": "2026-04-06",
+  "stale_rows": 0,
+  "total_rows": 24,
+  "stale_ratio": 0.0,
+  "is_fresh": true
+}
