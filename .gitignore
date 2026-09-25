@@ -4,5 +4,9 @@ lab.txt
 .venv/
 src/*.egg-info/
 lab/
+data/chroma/*
+!data/chroma/.gitkeep
+data/embeddings/*
+!data/embeddings/.gitkeep
 **/__pycache__/
 doc_verification_report.md
