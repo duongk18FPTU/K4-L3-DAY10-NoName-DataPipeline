@@ -1,0 +1,40 @@
+{
+  "run_date": "2026-09-25T09:12:34.227836+00:00",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "output": "data\\tv3\\6ae8fce6b6c04af18b729651dfe860b9",
+  "raw_sha256": "950a5bb36bd6f655fc45cb3654a14920223971b64dcf62feef909e6bf054ceb2",
+  "top_k": 4,
+  "states": {
+    "baseline": {
+      "documents": 24,
+      "index_seconds": 8.245,
+      "rebuild_seconds": 1.197,
+      "vector_metadata_rebuild": "passed",
+      "title_search_hit_rate_at_4": 0.9583333333333334,
+      "qa_exact_match": 1.0,
+      "qa_cases": 96,
+      "count_reload_lookup": "passed"
+    },
+    "corrupted": {
+      "documents": 23,
+      "index_seconds": 1.172,
+      "rebuild_seconds": 1.329,
+      "vector_metadata_rebuild": "passed",
+      "title_search_hit_rate_at_4": 0.7916666666666666,
+      "qa_exact_match": 0.7708333333333334,
+      "qa_cases": 96,
+      "count_reload_lookup": "passed"
+    },
+    "repaired": {
+      "documents": 24,
+      "index_seconds": 1.291,
+      "rebuild_seconds": 1.47,
+      "vector_metadata_rebuild": "passed",
+      "title_search_hit_rate_at_4": 0.9583333333333334,
+      "qa_exact_match": 1.0,
+      "qa_cases": 96,
+      "count_reload_lookup": "passed"
+    }
+  },
+  "agent": "not requested"
+}
